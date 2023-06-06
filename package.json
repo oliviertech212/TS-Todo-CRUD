@@ -2,7 +2,7 @@
   "name": "typescrip-todo-app",
   "version": "1.0.0",
   "description": "typescript to do  project",
-  "main": "app.ts",
+  "main": "dist/js/app.js",
   "scripts": {
     "build": "tsc",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\"",

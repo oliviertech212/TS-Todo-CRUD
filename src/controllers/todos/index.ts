@@ -50,6 +50,8 @@ const updateTodo = async (req: Request, res: Response): Promise<void> => {
       todos: allTodos,
     })
   } catch (error) {
+    console.log(error);
+    
     throw error
   }
 }
