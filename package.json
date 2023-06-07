@@ -2,11 +2,11 @@
   "name": "typescrip-todo-app",
   "version": "1.0.0",
   "description": "typescript to do  project",
-  "main": "dist/js/app.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\"",
-    "dev": "nodemon"
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/js/index.js\"",
+    "start":"node dist/js/index.js"
   },
   "author": "oliviertech",
   "license": "ISC",
